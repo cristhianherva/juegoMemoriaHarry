@@ -184,15 +184,15 @@ function compararImg() {
             mostrarAciertos.textContent = aciertos;
         } else {
             alert("debes escoger otra imagen")
-            imagenesTablero[imagenID[0]].src = "imagenes/ocultar.png"
+            imagenesTablero[imagenID[0]].src = "imagenes/ocultar.jpg"
             intentos++;
             mostrarIntentos.textContent = intentos;
         }
     } else {
         // alert("fallaste");
         sonidoFallar.play();
-        imagenesTablero[imagenID[0]].src = "imagenes/ocultar.png"
-        imagenesTablero[imagenID[1]].src = "imagenes/ocultar.png"
+        imagenesTablero[imagenID[0]].src = "imagenes/ocultar.jpg"
+        imagenesTablero[imagenID[1]].src = "imagenes/ocultar.jpg"
         intentos++;
         mostrarIntentos.textContent = intentos;
     }
